@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div{
+                font-family: Arial;
+                font-size:20px
+            }
+            .row{
+                display: flex;
+                flex-direction: row;
+                vertical-align: top;
+                width: 420px;
+                margin-top: 10px;
+                margin-left: 20px;
+            }
+            .thumbnail{
+                height: 50px;
+                width: 50px;
+                object-fit: cover;
+                border-radius: 25px;
+                margin-bottom: 3px;
+                margin-right: 14px;
+            }
+            .tweet-header {
+                display: flex;
+                flex-direction: row;
+                margin-bottom: 5px;
+                }
+                            
+            .author{
+                font-weight: bold;
+                font-size:24px;
+                margin-right: 5px;
+            }
+            .author-handle{
+                color: grey;
+                font-size:24px;
+                font-weight: none;
+            }
+            .info{
+                width:500px;
+                line-height: 30px;
+            }
+            .grey{
+                color:rgb(113, 112, 112)
+            }
+            
+            
+            
+            .flex2{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                border-width: 1px;
+                border-style: solid;
+                border-color: rgb(200, 200, 200);
+                border-radius: 15px;
+                overflow: hidden;
+            }
+            .box{
+                width: 150px;
+                height: 150px;
+                background-color: rgb(220, 220, 220);
+                margin-right: 10px;
+            }
+            .info2{
+                width:300px
+            }
+
+
+        </style>
+    </head>
+    <b0dy>
+        <div class="row">
+            <div><img class="thumbnail" src="thumbnails/puppy.jpg"></div>
+            <div class="tweet-column">
+                <div class="tweet-header">
+                    <div class="author">supersimple.dev</div>
+                    <div class="author-handle"> @SuperSimpleDev</div>
+                </div>
+                <p class="info">What is backend web developement?A complete overview.New vedio is up!</p>
+        
+                <div class="flex2">
+                    <div class="box"></div>
+                    <div>
+                        <p class="grey">youtube.com</p>
+                        <p class="info2">Backend web developement-a complete overview(2021)</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .thumbnail{
+                height:40px;
+                width:40px;
+                border-radius: 20px;
+                margin-right: 5px;
+                object-fit: cover;
+            }
+            .header{
+                position: fixed;
+                top:0
+            }
+            .flex1{
+                display:flex;
+                flex-direction: row;
+                align-items: center;
+            }
+            .button{
+                background-color: rgb(52, 52, 216);
+                color: white;
+                font-size: 14px;
+                font-weight: bold;;
+                height:30px;
+                width:100px;
+                border:none;
+                margin-left: 300px;
+                border-radius: 5px;
+                margin-right:8px
+            }
+            .msg{
+                background-color: rgb(231, 231, 232);
+                color: black;
+                font-size: 14px;
+                font-weight: bold;;
+                height:30px;
+                width:100px;
+                border:none;
+            
+                border-radius: 5px;
+                
+            }
+        </style>
+    </head>
+    <body style="height: 3000px;">
+        <div class="header">
+            <div class="flex1">
+                <img class="thumbnail" src="thumbnails/doggy.png">
+                <div style="font-weight: bold;">Oreo dog</div>
+                <button class="button">Add friend</button>
+                <button class="msg">Message</button>
+            </div>
+        </div>
+
+    </body>
+</html>
